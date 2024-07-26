@@ -20,3 +20,16 @@ textarea:placeholder-shown{
   font-size: x-small;
   color: #eab308;
 }
+.para{
+  font-size: x-small;
+  font-weight: normal;
+}
+.contact-h{
+  color: gray;
+  font-size: x-small;
+  font-weight: normal;
+}
+.contact-p{
+  font-size:small;
+  font-weight: 300;
+}

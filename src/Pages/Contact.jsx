@@ -1,11 +1,17 @@
 import Form from "../Components/form"
+import mail from "../assets/images/email.png"
+import address from "../assets/images/map.png"
+import x from "../assets/images/twitter.png"
+import github from "../assets/images/github.png"
+import facebook from "../assets/images/facebook.png"
+import telephone from "../assets/images/telephone.png"
+
 import { Navbar } from "../Components/Navbar"
 
 
 const Contact = () => {
   return (
     <div>
-      <Navbar />
       <section className="grid sm:grid-col-2 md:grid-cols-5 p-4">
 
         <div className="sm:grid-col-2 md:col-span-5 text-yellow-500 text-center font-extrabold text-3xl"><span className="text-white">
@@ -17,38 +23,41 @@ const Contact = () => {
             DON&apos;T BE SHY !
           </h1>
 
-          <p className="text-xs mb-1">
+          <p className="para">
             Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
           </p>
 
-          <div className="flex my-4">
-            <img src="" alt="" />
+          <div className="flex my-4 gap-3 items-start">
+            <img src={address} alt="" className="w-4 h-4" />
             <div>
-              <h1 className="text-gray-300 text-sm font-normal">ADDRESS POINT</h1>
-              <p className="text-xs my-1 font-medium">Plot 6, Medinah Community, Ilere, Akure, Ondo State.</p>
+              <h1 className="contact-h">ADDRESS POINT</h1>
+              <p className="contact-p">Plot 6, Medinah Community, Ilere, Akure, Ondo State.</p>
             </div>
           </div>
 
-          <div className="flex my-4">
-            <img src="" alt="" />
+          <div className="flex my-4 gap-3 items-start">
+            <img src={mail} alt="" className="w-4 h-4"/>
             <div>
-              <h1 className="text-gray-300 text-sm font-normal">MAIL ME</h1>
-              <a href="mailto:aliuanas004@gmail.com" className="text-xs my-1 font-medium">aliuanas004@gmail.com</a>
+              <h1 className="contact-h">MAIL ME</h1>
+              <a href="mailto:aliuanas004@gmail.com" className="contact-p">aliuanas004@gmail.com</a>
               </div>
           </div>
 
-          <div className="flex my-4">
-            <img src="" alt="" />
+          <div className="flex my-4 gap-3 items-start">
+            <img src={telephone} alt="" className="w-4 h-4"/>
             <div>
-              <h1 className="text-gray-300 text-sm font-normal">CALL ME</h1>
-              <a href="tel:+2349034272822" className="text-xs my-1 font-medium">+2349034272822</a>
+              <h1 className="contact-h">CALL ME</h1>
+              <a href="tel:+2349034272822" className="contact-p">+234 90 342 728 22</a>
             </div>
           </div>
-          
-          <div>
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+
+          <div className="flex gap-3">
+            <img src={x} alt="" className="w-8 h-8 bg-gray hover:bg-yellow-500 rounded-full p-2" />
+
+            <img src={github} alt="" className="w-8 h-8 bg-gray hover:bg-yellow-500 rounded-full p-2" />
+
+            <img src={facebook} alt="" className="w-8 h-8 bg-gray hover:bg-yellow-500 rounded-full p-2" />
+
           </div>
         </div>
 
