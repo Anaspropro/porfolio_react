@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="bg-black font-sans">
-      <Navbar />
+      {/* <Navbar /> */}
       
       <Routes>
         <Route path="/" element={ <Index /> } />

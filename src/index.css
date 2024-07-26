@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input:placeholder-shown{
+  color: white;
+  height: 3px;
+  font-size: xx-small;
+}
+input{
+  color: white;
+  font-size: xx-small;
+  padding-block: 18px;
+  padding-inline: 10px;
+}
+textarea{
+  font-size: xx-small;
+}
+textarea:placeholder-shown{
+  font-size: x-small;
+  color: #eab308;
+}
