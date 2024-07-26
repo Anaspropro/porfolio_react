@@ -6,9 +6,6 @@ import github from "../assets/images/github.png"
 import facebook from "../assets/images/facebook.png"
 import telephone from "../assets/images/telephone.png"
 
-import { Navbar } from "../Components/Navbar"
-
-
 const Contact = () => {
   return (
     <div>
