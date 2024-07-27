@@ -1,4 +1,5 @@
 import Button from './button'
+import message from '../assets/images/message.png'
 
 const Form = () => {
   return (
@@ -12,7 +13,7 @@ const Form = () => {
 
         <textarea name="message" autoComplete="off" placeholder="YOUR MESSAGE" className="bg-gray focus:border-yellow-500 focus:border-1  text-start cursor-text text-white font-semibold px-4 py-2 h-36 border border-gray rounded-2xl outline-none md:col-span-4 text-xs" />
       </div>
-      <Button />
+      <Button text={"Send message"} image={message} />
     </div>
   )
 }
