@@ -10,7 +10,7 @@ import { Navbar } from "./Components/Navbar"
 function App() {
 
   return (
-    <div className="bg-black font-sans h-100vh">
+    <div className="bg-black font-sans h-100vh flex">
       <Navbar />
       
       <Routes>
