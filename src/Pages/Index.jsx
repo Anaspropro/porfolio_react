@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 const Index = () => {
   return (
-   <div className="flex flex-col md:flex-row md:gap-10 items-center justify-center px-3 md:px-20 h-screen bg-black ">
+   <div className="flex flex-col md:flex-row md:gap-10 items-center justify-center px-3 md:px-20 bg-black ">
     <img src={anas} alt="" className="hero-img rounded-3xl left-10 top-10 my-9" />
     <div className="flex flex-col text-center items-center justify-center my-9 p-6">
       <h1 className="font-bold text-4xl text-yellow-500">I&apos;M ANAS ALIU.</h1>
