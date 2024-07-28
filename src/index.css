@@ -2,15 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.app{
+  height: 100vh;
+}
 .hero-img{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 150px);
   z-index: 11;
   border-radius: 25px;
-  left: 40px;
-  top: 40px;
   box-shadow: 0 0 7px rgba(0, 0, 0, .9);
 }
 @media (max-width: 768px) {
@@ -22,38 +23,33 @@
     text-align: center;
     justify-content: center;
     border-radius: 50%;
-    margin: 0 auto 25px;
     border: 4px solid #707070;
   }
 }
 input:placeholder-shown{
   color: white;
-  height: 3px;
-  font-size: xx-small;
+  font-size: medium;
 }
 input{
+  padding: 10px;
   color: white;
-  font-size: xx-small;
-  padding-block: 18px;
-  padding-inline: 10px;
 }
 textarea{
-  font-size: xx-small;
+  font-size: large;
 }
 textarea:placeholder-shown{
-  font-size: x-small;
+  font-size: medium;
   color: #eab308;
 }
-.para{
-  font-size: x-small;
-  font-weight: normal;
+.info{
+  align-items: center;
 }
 .contact-h{
   color: gray;
-  font-size: x-small;
+  font-size: larger;
   font-weight: normal;
 }
 .contact-p{
-  font-size:small;
+  font-size: medium;
   font-weight: 300;
 }
