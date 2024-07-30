@@ -49,11 +49,11 @@ const Contact = () => {
           </div>
 
           <div className="flex gap-3">
-            <img src={x} alt="" className="w-8 h-8 bg-gray hover:bg-yellow-500 rounded-full p-2" />
+            <img src={x} alt="" className="w-8 h-8 bg-gray hover:bg-yellow-500 rounded-full p-2 mb-2 hover:transition-all hover:duration-1000" />
 
-            <img src={github} alt="" className="w-8 h-8 bg-gray hover:bg-yellow-500 rounded-full p-2" />
+            <img src={github} alt="" className="w-8 h-8 bg-gray hover:bg-yellow-500 rounded-full p-2 mb-2 hover:transition-all hover:duration-1000" />
 
-            <img src={facebook} alt="" className="w-8 h-8 bg-gray hover:bg-yellow-500 rounded-full p-2" />
+            <img src={facebook} alt="" className="w-8 h-8 bg-gray hover:bg-yellow-500 rounded-full p-2 mb-2 hover:transition-all hover:duration-1000" />
 
           </div>
         </div>

@@ -4,29 +4,27 @@ import about from '../assets/images/profile.png'
 import portfolio from '../assets/images/portfolio.png'
 import contact from '../assets/images/contact.png'
 
+
+
 export const Navbar = () => {
   return (
-    <>
-      <nav className='px-3 flex md:justify-center border-b-2 border-yellow-500 text-yellow-500'>
-        <ul className="flex flex-1 p-3 gap-2 align-middle justify-between md:justify-center md:gap-20">
-          <li className='flex gap-1 md:gap-2 justify-center items-center text-2xl font-mono font-semibold hover:bg-yellow-400 hover:rounded-3xl hover:text-black p-2 '>
-            <img src={home} alt="" className='w-5 h-5 fill-yellow-500' />
-            <Link to="/" className=''>Home</Link>
+    <div className=''>
+      <nav className=''>
+        <ul className='flex py-5 px-10 gap-10 align-middle justify-center'>
+          <li className='w-10 h-10 bg-yellow-500 rounded-full p-2'>
+          <Link to="/" className=''><img src={home} alt="" className='' /></Link>
           </li>
-          <li className='flex gap-1 md:gap-2 justify-center items-center text-2xl font-mono font-semibold hover:bg-yellow-400 hover:rounded-3xl hover:text-black p-2 '>
-            <img src={about} alt="" className='w-5 h-5 fill-yellow-500' />
-            <Link to="/about" className=''>About</Link>
+          <li className='w-10 h-10 bg-yellow-500 rounded-full p-2'>
+          <Link to="/about" className=''><img src={about} alt="" className='' /></Link>
           </li>
-          <li className='flex gap-1 md:gap-2 justify-center items-center text-2xl font-mono font-semibold hover:bg-yellow-400 hover:rounded-3xl hover:text-black p-2 '>
-            <img src={portfolio} alt="" className='w-5 h-5 fill-yellow-500' />
-            <Link to="/portfolio" className=''>Project</Link>
+          <li className='w-10 h-10 bg-yellow-500 rounded-full p-2'>
+          <Link to="/portfolio" className=''><img src={portfolio} alt="" className='' /></Link>
           </li>
-          <li className='flex gap-1 md:gap-2 justify-center items-center text-2xl font-mono font-semibold hover:bg-yellow-400 hover:rounded-3xl hover:text-black p-2 '>
-            <img src={contact} alt="" className='w-5 h-5 fill-yellow-500' />
-            <Link to="/contact" className=''>Contact</Link>
+          <li className='w-10 h-10 bg-yellow-500 rounded-full p-2'>
+          <Link to="/contact" className=''><img src={contact} alt="" className='' /></Link>
           </li>
         </ul>
-      </nav>
-    </>
+    </nav>
+    </div>
   )
 }

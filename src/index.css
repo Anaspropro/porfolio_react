@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .app{
   height: fit-content;
 }
@@ -52,4 +53,11 @@ textarea:placeholder-shown{
 .contact-p{
   font-size: medium;
   font-weight: 300;
+}
+.about-item{
+  /* text-align: center; */
+  align-items: center;
+}
+.col-12{
+  flex: 0 0 auto;
 }

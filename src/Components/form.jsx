@@ -3,7 +3,7 @@ import message from '../assets/images/message.png'
 
 const Form = () => {
   return (
-    <div className='flex flex-col gap-4'>
+    <div className='flex flex-col gap-4 py-1'>
       <div className="grid md:grid-cols-4 gap-y-6 gap-x-4 ">
         <input type="text" name="name" autoComplete="give-name" placeholder="YOUR NAME" className="bg-gray focus:border-yellow-500 focus:border-1 text-lg cursor-text font-medium h-12 border border-gray rounded-2xl outline-none md:col-span-2" />
 
