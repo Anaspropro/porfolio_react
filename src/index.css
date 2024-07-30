@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .app{
-  height: 100vh;
+  height: fit-content;
 }
 .hero-img{
   background-size: cover;
