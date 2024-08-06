@@ -10,18 +10,30 @@ export const Navbar = () => {
   return (
     <div className=''>
       <nav className=''>
-        <ul className='flex py-5 px-10 gap-10 align-middle justify-center'>
-          <li className='w-10 h-10 bg-yellow-500 rounded-full p-2'>
-          <Link to="/" className=''><img src={home} alt="" className='' /></Link>
+        <ul className='flex flex-1 py-6 px-10 gap-14 align-middle justify-center'>
+          <li className='w-fit h-fit hover:bg-yellow-500 md:p-2 rounded-full border border-yellow-500'>
+          <Link to="/" className='flex items-center justify-center gap-4 p-4 md:p-0 md:mx-3'>
+            <h1 className='text-white text-lg font-medium hidden md:flex'>HOME</h1>
+            <img src={home} alt="" className='w-5 h-5' />
+          </Link>
           </li>
-          <li className='w-10 h-10 bg-yellow-500 rounded-full p-2'>
-          <Link to="/about" className=''><img src={about} alt="" className='' /></Link>
+          <li className='w-fit h-fit hover:bg-yellow-500 md:p-2 rounded-full border border-yellow-500'>
+          <Link to="/about" className='flex items-center justify-center gap-4 p-4 md:p-0 md:mx-3'>
+            <h1 className='text-white text-lg font-medium hidden md:flex'>ABOUT</h1>
+            <img src={about} alt="" className='w-5 h-5' />
+          </Link>
           </li>
-          <li className='w-10 h-10 bg-yellow-500 rounded-full p-2'>
-          <Link to="/portfolio" className=''><img src={portfolio} alt="" className='' /></Link>
+          <li className='w-fit h-fit hover:bg-yellow-500 md:p-2 rounded-full border border-yellow-500'>
+          <Link to="/portfolio" className='flex items-center justify-center gap-4 p-4 md:p-0 md:mx-3'>
+            <h1 className='text-white text-lg font-medium hidden md:flex'>PORTFOLIO</h1>
+            <img src={portfolio} alt="" className='w-5 h-5' />
+          </Link>
           </li>
-          <li className='w-10 h-10 bg-yellow-500 rounded-full p-2'>
-          <Link to="/contact" className=''><img src={contact} alt="" className='' /></Link>
+          <li className='w-fit h-fit hover:bg-yellow-500 md:p-2 rounded-full border border-yellow-500'>
+          <Link to="/contact" className='flex items-center justify-center gap-4 p-4 md:p-0 md:mx-3'>
+            <h1 className='text-white text-lg font-medium hidden md:flex'>CONTACT</h1>
+            <img src={contact} alt="" className='w-5 h-5' />
+          </Link>
           </li>
         </ul>
     </nav>
