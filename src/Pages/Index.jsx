@@ -6,7 +6,7 @@ import { Navbar } from "../Components/Navbar"
 
 const Index = () => {
   return (
-    <div className="index bg-black md:bg-home">
+    <div className="index bg-black h-screen md:bg-home">
       <Navbar />
     
       <div className="flex flex-col md:flex-row md:gap-20 items-center justify-center px-6 md:px-40  ">
