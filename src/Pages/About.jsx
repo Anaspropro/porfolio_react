@@ -1,3 +1,4 @@
+import { Navbar } from "../Components/Navbar"
 import Button from "../Components/button"
 import download from "../assets/images/downloads.png"
 
@@ -5,6 +6,7 @@ import download from "../assets/images/downloads.png"
 const About = () => {
   return (
     <div className="">
+      <Navbar />
       <h1 className="text-5xl text-yellow-500 font-extrabold text-center my-10"><span className="text-white">ABOUT</span> ME</h1>
       <div className="">
         <div className="px-5">
