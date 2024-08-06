@@ -9,7 +9,7 @@ import { Navbar } from "../Components/Navbar"
 
 const Contact = () => {
   return (
-    <div>
+    <div className="bg-black">
       <Navbar />
       <section className="grid sm:grid-col-2 md:grid-cols-5 p-6">
 
