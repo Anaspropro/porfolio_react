@@ -12,7 +12,7 @@ export default {
       },
       backgroundImage: {
         anas: "url('../assets/anas.jpg')",
-        home: "linear-gradient(80deg, rgb(235, 10, 5) 22%, rgb(0, 0, 0) 10%)",
+        home: "linear-gradient(89deg, rgb(59, 130, 246) 42%, rgb(0, 0, 0) 10%)",
       },
       colors:{
         gray: "#252525"

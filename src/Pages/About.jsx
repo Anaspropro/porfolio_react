@@ -1,4 +1,3 @@
-import { Navbar } from "../Components/Navbar"
 import Button from "../Components/button"
 import download from "../assets/images/download.png"
 
@@ -6,9 +5,8 @@ import download from "../assets/images/download.png"
 const About = () => {
   return (
     <div className="bg-black">
-      <Navbar />
       <div className="px-10 md:px-5 lg:px-12">
-        <h1 className="text-5xl py-12 text-red-700 font-extrabold text-center"><span className="text-white">ABOUT</span> ME</h1>
+        <h1 className="text-5xl py-12 text-blue-700 font-extrabold text-center"><span className="text-white">ABOUT</span> ME</h1>
                 
         <section className="grid lg:grid-cols-2 gap-x-8 gap-y-10 md:gap-y-0 md:px-5 lg:px-14">
           <ul className="grid grid-cols-2 gap-5">
@@ -30,7 +28,7 @@ const About = () => {
 
           <div className="grid grid-cols-2 gap-3 md:gap-5">
             <div className="border px-3 md:px-5 col-span-1 py-6">
-              <h1 className="flex text-4xl font-bold text-start text-red-700 align-text-top">
+              <h1 className="flex text-4xl font-bold text-start text-blue-700 align-text-top">
                 3 <span className="text-xl font-extrabold">+</span>
               </h1>
               <p className="font-medium md:font-semibold text-base md:text-xl flex gap-2 text-white md:px-4">
@@ -39,7 +37,7 @@ const About = () => {
               </p>
             </div>
             <div className="border px-3 md:px-5 col-span-1 py-6">
-              <h1 className="flex text-4xl font-bold text-start text-red-700 align-text-top">
+              <h1 className="flex text-4xl font-bold text-start text-blue-700 align-text-top">
                 5 <span className="text-xl font-extrabold">+</span>
               </h1>
               <p className="font-medium md:font-semibold text-base md:text-xl flex gap-2 text-white md:px-4">
@@ -48,7 +46,7 @@ const About = () => {
               </p>
             </div>
             <div className="border px-3 md:px-5 col-span-1 py-6">
-              <h1 className="flex text-4xl font-bold text-start text-red-700 align-text-top">
+              <h1 className="flex text-4xl font-bold text-start text-blue-700 align-text-top">
                 12 <span className="text-xl font-extrabold">+</span>
               </h1>
               <p className="font-medium md:font-semibold text-base md:text-xl flex gap-2 text-white md:px-4">
@@ -57,7 +55,7 @@ const About = () => {
               </p>
             </div>
             <div className="border px-3 md:px-5 col-span-1 py-6">
-              <h1 className="flex text-4xl font-bold text-start text-red-700 align-text-top">
+              <h1 className="flex text-4xl font-bold text-start text-blue-700 align-text-top">
                 12 <span className="text-xl font-extrabold">+</span>
               </h1>
               <p className="font-medium md:font-semibold text-base md:text-xl flex gap-2 text-white md:px-4">

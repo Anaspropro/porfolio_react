@@ -5,15 +5,13 @@ import x from "../assets/images/twitter.png"
 import github from "../assets/images/github.png"
 import facebook from "../assets/images/facebook.png"
 import telephone from "../assets/images/telephone.png"
-import { Navbar } from "../Components/Navbar"
 
 const Contact = () => {
   return (
     <div className="bg-black">
-      <Navbar />
       <section className="grid grid-col-2 md:grid-cols-5 p-6">
 
-        <div className="sm:grid-col-2 md:col-span-5 text-red-700 text-center font-extrabold text-6xl"><span className="text-white">
+        <div className="sm:grid-col-2 md:col-span-5 text-blue-700 text-center font-extrabold text-6xl"><span className="text-white">
           GET IN</span> TOUCH
         </div>
 
@@ -22,7 +20,7 @@ const Contact = () => {
             DON&apos;T BE SHY !
           </h1>
 
-          <p className="text-lg font-normal">
+          <p className="text-lg font-normal text-blue-500">
             Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
           </p>
 
@@ -43,7 +41,7 @@ const Contact = () => {
           </div>
 
           <div className="info flex my-4 gap-3 items-start">
-            <img src={telephone} alt="" className="w-5 h-5"/>
+            <img src={telephone} alt="" className="w-6 h-6"/>
             <div>
               <h1 className="contact-h">CALL ME</h1>
               <a href="tel:+2349034272822" className="contact-p">+234 90 342 728 22</a>
@@ -51,11 +49,11 @@ const Contact = () => {
           </div>
 
           <div className="flex gap-3">
-            <img src={x} alt="" className="w-8 h-8 bg-gray hover:bg-red-700 rounded-full p-2 mb-2 hover:transition-all hover:duration-1000" />
+            <img src={x} alt="" className="w-8 h-8 bg-gray hover:bg-blue-700 rounded-full p-2 mb-2 hover:transition-all hover:duration-1000" />
 
-            <img src={github} alt="" className="w-8 h-8 bg-gray hover:bg-red-700 rounded-full p-2 mb-2 hover:transition-all hover:duration-1000" />
+            <img src={github} alt="" className="w-8 h-8 bg-gray hover:bg-blue-700 rounded-full p-2 mb-2 hover:transition-all hover:duration-1000" />
 
-            <img src={facebook} alt="" className="w-8 h-8 bg-gray hover:bg-red-700 rounded-full p-2 mb-2 hover:transition-all hover:duration-1000" />
+            <img src={facebook} alt="" className="w-8 h-8 bg-gray hover:bg-blue-700 rounded-full p-2 mb-2 hover:transition-all hover:duration-1000" />
 
           </div>
         </div>
