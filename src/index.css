@@ -12,6 +12,7 @@
   z-index: 11;
   border-radius: 25px;
   box-shadow: 0 0 7px rgba(40, 40, 40, 0.9);
+  color: rgb(255, 0, 0);
 }
 @media (max-width: 768px) {
   .hero-img{
