@@ -3,7 +3,7 @@ import { Navbar } from "../Components/Navbar"
 
 const Project = () => {
   return (
-    <div className="">
+    <div className="bg-black">
       <Navbar />
       <h1 className="text-yellow-500 font-extrabold text-4xl text-center my-4"><span className="text-white">MY </span>PORTFOLIO</h1>
       <div className="grid grid-cols-3 w-90 h-80 px-10 py-6 mx-10 mt-10 gap-4 ">

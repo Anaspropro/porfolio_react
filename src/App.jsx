@@ -9,7 +9,8 @@ import Error from './Pages/Error'
 function App() {
 
   return (
-    <div className="app bg-[#101010] h-screen font-sans">      
+    <div className="app bg-black h-screen font-sans"> 
+      
       <Routes>
         <Route path="/" element={ <Index /> } />
         <Route path="/about" element={ <About />} />

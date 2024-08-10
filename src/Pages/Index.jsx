@@ -6,10 +6,9 @@ import { Navbar } from "../Components/Navbar"
 
 const Index = () => {
   return (
-    <div className="index bg-black h-screen md:bg-home">
+    <div className="index bg-black md:bg-home">
       <Navbar />
-    
-      <div className="flex flex-col md:flex-row md:gap-20 items-center justify-center px-6 md:px-40  ">
+      <div className="flex flex-col md:flex-row md:gap-20 items-center justify-center px-4 md:px-40  ">
        <img src={anas} alt="" className="hero-img rounded-3xl my-5" />
        <div className="flex flex-col text-center md:items-start items-center md:justify-start p-6">
          <h1 className="font-bold text-5xl text-yellow-500">I&apos;M ANAS ALIU.</h1>

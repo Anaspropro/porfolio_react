@@ -2,14 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.index{
-  height: screen;
-}
+
 .hero-img{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  height: calc(90vh - 100px);
+  height: calc(100vh - 150px);
   width: 700px;
   z-index: 11;
   border-radius: 25px;

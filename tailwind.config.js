@@ -16,8 +16,7 @@ export default {
       },
       colors:{
         gray: "#252525"
-      }
-      
+      },      
     },
   },
   plugins: [
