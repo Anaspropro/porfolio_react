@@ -5,12 +5,10 @@ import x from "../assets/images/twitter.png"
 import github from "../assets/images/github.png"
 import facebook from "../assets/images/facebook.png"
 import telephone from "../assets/images/telephone.png"
-import { Navbar } from "../Components/Navbar"
 
 const Contact = () => {
   return (
     <div className="bg-black">
-      <Navbar />
       <section className="grid grid-col-2 md:grid-cols-5 p-6">
 
         <div className="sm:grid-col-2 md:col-span-5 text-yellow-500 text-center font-extrabold text-6xl"><span className="text-white">

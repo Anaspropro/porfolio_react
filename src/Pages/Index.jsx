@@ -2,12 +2,10 @@ import anas from "../assets/images/anas.jpg"
 import Button from "../Components/button"
 import arrow from "../assets/images/right-arrow.png"
 import { Link } from "react-router-dom"
-import { Navbar } from "../Components/Navbar"
 
 const Index = () => {
   return (
     <div className="index bg-black md:bg-home">
-      <Navbar />
       <div className="flex flex-col md:flex-row md:gap-20 items-center justify-center px-4 md:px-40  ">
        <img src={anas} alt="" className="hero-img rounded-3xl my-5" />
        <div className="flex flex-col text-center md:items-start items-center md:justify-start p-6">

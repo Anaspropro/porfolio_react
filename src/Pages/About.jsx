@@ -1,14 +1,14 @@
-import { Navbar } from "../Components/Navbar"
 import Button from "../Components/button"
 import download from "../assets/images/download.png"
 
 
 const About = () => {
   return (
-    <div className="bg-black">
-      <Navbar />
+    <div className="bg-home">
       <div className="px-10 md:px-5 lg:px-12">
-        <h1 className="text-5xl text-yellow-500 font-extrabold text-center md:mt-10 mb-14"><span className="text-white">ABOUT</span> ME</h1>
+        <div className="">
+          <h1 className="text-5xl text-yellow-500 font-extrabold text-center"><span className="text-white">ABOUT</span> ME</h1>
+        </div>
                 
         <section className="grid lg:grid-cols-2 gap-x-8 gap-y-10 md:gap-y-0 md:px-5 lg:px-14">
           <ul className="grid grid-cols-2 gap-5">

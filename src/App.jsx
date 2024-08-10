@@ -4,13 +4,14 @@ import About from './Pages/About'
 import Project from './Pages/Project'
 import Contact from './Pages/Contact'
 import Error from './Pages/Error'
+import { Navbar } from "./Components/Navbar"
 
 
 function App() {
 
   return (
     <div className="app bg-black h-screen font-sans"> 
-      
+      <Navbar />
       <Routes>
         <Route path="/" element={ <Index /> } />
         <Route path="/about" element={ <About />} />

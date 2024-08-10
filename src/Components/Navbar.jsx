@@ -8,7 +8,7 @@ import contact from '../assets/images/contact.png'
 
 export const Navbar = () => {
   return (
-    <div className='border-b-2'>
+    <div className='border-b-2 border-yellow-500 bg-black'>
       <nav className=''>
         <ul className='flex md:flex-1 py-5 md:py-6 md:px-10 gap-4 md:gap-14 align-middle justify-center'>
           <li className='w-fit h-fit hover:bg-yellow-500 md:p-2 rounded-3xl border border-yellow-500'>
